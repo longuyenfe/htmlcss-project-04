@@ -564,3 +564,73 @@ a {
     opacity: 1;
     height: 1.5px;
 }
+
+/* Service */
+.service {
+    margin-top: 180px;
+    background: #fff6ed;
+    padding: 68px 0 100px;
+}
+
+.service__top {
+    text-align: center;
+}
+
+.service__desc {
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #5e6085;
+    margin-bottom: 15px;
+}
+
+.service__body {
+    display: grid;
+    margin-top: 70px;
+    grid-template-columns: auto 1fr auto;
+}
+
+.service__item {
+    width: 294px;
+    padding: 30px 22px 30px 28px;
+    background: #ffffff;
+    border: 2px solid rgba(255, 188, 122, 0.26);
+    border-radius: 10px;
+}
+
+.service__item + .service__item {
+    margin-top: 24px;
+}
+
+.service__item-heading {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: #000958;
+}
+
+.service__item-desc {
+    margin-top: 18px;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    width: 100%;
+    color: #656689;
+}
+
+.service__item-more {
+    margin-top: 24px;
+    display: inline-flex;
+    align-items: center;
+
+    font-family: "Sora";
+    font-size: 1.2rem;
+    line-height: 1;
+    color: #34396a;
+}
+
+.service__item-more::after {
+    content: url(../img/ArrowUpRight.svg);
+    margin-left: 5px;
+    margin-top: 2px;
+}
