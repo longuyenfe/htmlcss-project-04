@@ -96,6 +96,10 @@ a {
     line-height: 1.88;
     color: #656689;
 }
+
+.pricing-item-active {
+    box-shadow: 0px 20px 44px rgba(195, 108, 22, 0.06);
+}
 /* Header */
 .header {
     padding: 26px 0;
@@ -812,6 +816,7 @@ a {
 /* Pricing */
 .pricing {
     padding: 86px 0;
+    background: #fff6ed;
 }
 
 .pricing__heading,
@@ -954,4 +959,49 @@ a {
 .pricing-item__item::before {
     content: url(../img/pricing-decor.svg);
     margin-right: 14px;
+}
+
+/* Review */
+.review {
+    padding: 53px 0;
+}
+
+.review__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 44px;
+}
+
+.review__control {
+    border: 1.5px solid #ffd1c4;
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: transparent;
+    color: #ff5b2e;
+}
+
+.review__control:hover {
+    color: #fff;
+    background: #ff5b2e;
+    border-color: #ff5b2e;
+    cursor: pointer;
+}
+
+.review-item {
+    display: flex;
+}
+
+.review-item__media {
+    width: 274px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.review-item__img {
+    width: 100%;
 }
