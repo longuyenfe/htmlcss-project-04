@@ -963,7 +963,7 @@ a {
 
 /* Review */
 .review {
-    padding: 53px 0;
+    padding: 104px 0;
 }
 
 .review__inner {
@@ -992,10 +992,24 @@ a {
     cursor: pointer;
 }
 
+.review__control:nth-of-type(2) {
+    margin-left: auto;
+}
+
+.review__list {
+    display: flex;
+}
+
+.review__content {
+    overflow: hidden;
+}
+
 .review-item {
     display: flex;
     align-items: center;
     column-gap: 115px;
+    flex-shrink: 0;
+    width: 100%;
 }
 
 .review-item__media {
@@ -1014,6 +1028,10 @@ a {
     height: 82%;
     background: #ffda54;
     border-radius: inherit;
+}
+
+.review-item__content {
+    margin-top: 28px;
 }
 
 .review-item__img {
