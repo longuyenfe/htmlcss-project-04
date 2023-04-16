@@ -1096,3 +1096,23 @@ a {
     background: #ff5b2e;
     border-radius: 4px;
 }
+
+/* Blog */
+
+.blog__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section__right {
+    width: 350px;
+    margin-right: 73px;
+}
+
+.blog__cta {
+    margin-top: 24px;
+    min-width: 182px;
+    color: #ff5b2e;
+    border: 1px solid #ff5b2e;
+    font-weight: 500;
+}
